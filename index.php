@@ -212,8 +212,7 @@ function set_width() {
 </script>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 -=[ zaki&trade; ]=-
-</title><link rel="stylesheet" type="text/css" href="css" 
-media="all,black.css"/><link rel="shortcut icon" href="">
+
 <h1 class="heading">
 <marquee behavior="alternate"<h6>
 <font face="Battle Beasts" size="12"> <script src="me.js"></script>
@@ -368,7 +367,7 @@ Welcome: <font color="green">'.$nm.'</font><br>
 <a href="http://m.facebook.com/'.$id.'"><img src="https://graph.facebook.com/'.$id.'/picture" style="width:50px; height:50px;" alt="'.$nm.'"/></a>
 
 <form action="index.php" method="post"><input type="hidden" name="logout" value="'.$id.'">
-<input class="button button3" type="submit" value="Logout Bot"></form></li>
+<input class="button button1" type="submit" value="Logout Bot"></form></li>
 
 <form action="index.php" method="post">
 
@@ -392,7 +391,7 @@ Like tambah komen</option>
 }
 echo'
 
-<select  class="button button3" name="emot">';
+<select  class="button button1" name="emot">';
         if($dua=='on'){
         echo'
 <option value="'.$dua.'">
@@ -412,7 +411,7 @@ Bot emo</option>
 }
 echo'
 
-<select  class="button button3" name="target">';
+<select  class="button button1" name="target">';
         if($tiga=='on'){
         echo'
 <option value="'.$tiga.'">
@@ -434,7 +433,7 @@ echo'
 ';
         if($empat=='on'){
         echo'
-<select class="button button3" name="opsi">
+<select class="button button1" name="opsi">
 <option value="'.$empat.'">
 '.$uk.'
 </option>
@@ -444,7 +443,7 @@ Via text sendiri</option>
 }else{
         if($if[5]){
         echo'
-<select  class="button button3" name="opsi">
+<select  class="button button1" name="opsi">
 <option value="'.$empat.'">
 '.$uk.'
 </option>
@@ -464,7 +463,7 @@ Text via script</option>
 echo'
 
 <br>
-<input class="button button3" type="submit" value="SAVE"></form>
+<input class="button button1" type="submit" value="SAVE"></form>
 </div></div></div></ul></center>';
 
 $this->membEr();
