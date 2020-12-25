@@ -1,384 +1,7 @@
 <?php 
 session_start();
 error_reporting(0);
-html {
-  background: url(zaki.jpeg) no-repeat center center fixed ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: monospace;
-}
-body, input, button {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-#admin{
-    color:white;
-    font-size:30px;
-    font-weight:100;
-    
-}
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  .login {
-    margin-top: 1%;
-    width: 550px;
-    font-size: 1.7em;
-    min-height: 0;
-  }
-}
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  .login {
-    margin-top: 0;
-    width: 500px;
-    font-size: 1.3em;
-    min-height: 0;
-  }
-}
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .login {
-    margin-top: 0;
-    width: 400px;
-    font-size: 1em;
-    min-height: 0;
-  }
-  .login h2 {
-    margin-top: 0;
-  }
-}
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  .login {
-    margin-top: 0;
-    width: 200px;
-    font-size: 0.7em;
-    min-height: 0;
-  }
-}
 
-
-.inptext1 {
-    border:;
-    color:;
-    width: 700px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: rtl;
-    border-collapse: separate;
-    empty-cells: hide;
-    font-size: 16px;
-    top: -4.5em;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.1s;
-}
-
-
-.inptext1 {
-    background:none;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50px;
-
-}
-.inptext2 {
-    border:;
-    color:;
-    width: 250px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: rtl;
-    border-collapse: separate;
-    empty-cells: hide;
-    font-size: 16px;
-    top: -4.5em;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.1s;
-}
-
-
-.inptext2 {
-    background:none;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50px;
-
-} 
-
-/***************************/
-/* Designed By ZAKI DJELLOULI */
-/****************/
-.CSS img{
--webkit-transition-duration: 0.5s;
--moz-transition-duration: 0.5s;
--o-transition-duration: 0.5s;
-margin: 0 10px 5px 0;
-}
-
-.CSS img:hover{
--webkit-transform:scale(1.1);
--moz-transform:scale(1.1);
--o-transform:scale(1.1);
-box-shadow:0px 0px 30px gray;
--webkit-box-shadow:0px 0px 30px gray;
--moz-box-shadow:0px 0px 30px gray;
-opacity: 1;
-}
-
-a:hover {
-color:#819bb6;
-}
-
-.copy-right {
-	margin-top: 0;
-    margin-left: 40px;
-}
-.copy-right p {
-	color: #343434;
-	font-size: 1em;
-	font-family: 'Open Sans', sans-serif;	
-	font-weight: 600;
-    
-    width: 300px;
-    
-     
-}
-.copy-right p a {
-	font-family: 'Open Sans', sans-serif;	
-	font-size: 1em;
-	color:white;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-.copy-right p a:hover {
-	color:#1DB198;
-}
-
-
-.button {
-    
-    border: none;
-    border-radius: 30px;
-    color: white;
-    width: 140px;
-    height: 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-#example1 {
-    content: url(https:facebook.com/za1tk);
-   
-}
-.example1 {
-    content: url(https:facebook.com/za1tk);
-   
-}
-.button1 {
-    background:none;
-    border: 2px solid white;
-    border-radius: 50px;
-    color: #a3a3a3;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-}
-
-.button1:hover {
-    background-color:Black;
-    color:white;
-    border: 2px solid white ;
-    width: 170px;
-    font-size: 18px;
-}
-.button2 {
-    background:none;
-    border: 3px solid Black;
-    border-radius: 30px;
-    color: #a3a3a3;
-    line-height: 200%;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;  
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-}
-
-.button2:hover {
-    background-color:Black;
-    color:white;
-    border: 2px solid white ;
-    width: 170px;
-    font-size: 18px;
-}
-.button3 {
-    margin-top: 400px;
-    background:none;
-    border: 3px solid Black;
-    border-radius: 30px;
-    color: Black;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-}
-
-.button3:hover {
-    background-color:#2AD2D8;
-    color:white;
-    border: 2px solid white ;
-    width: 170px;
-    font-size: 18px;
-}
-.button4 {
-    margin-top: 300px;
-    background:none;
-    border: 3px solid Black;
-    border-radius: 30px;
-    color: Black;
-    width: 160px;
-    height: 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-}
-
-.button4:hover {
-    background-color:#D8345D;
-    color:white;
-    border: 2px solid white ;
-    font-size: 18px;
-    width: 180px;
-}
-
-
-/***************************/
-/* Designed By ZAKI DJELLOULI */
-/****************/
-#search-form [type=text] { width:18%; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 1px solid;4px; background:#040404;color:#001DDA}
-#search-form [type=submit] {;width: 10%; -webkit-border-radius: 5px; margin:1px;padding:4px;background: rgba(0, 0, 0, 0.5); color:#6cd900;border: 1px solid #001DDA;}
-body{
-	color: #8585EE;
-	text-align: center;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 14pt;
-	background-color: none ;
-	font-weight: bold;
-	padding: 0px;
-}
-a,.post-meta .title {color:#FFFF17;text-shadow:#111}
-.heading a,h3 a,h4 a {color:#ddd;}
-h3 {color:#ddd;text-shadow:#111 1px 1px 1px}
-#navigation a {color:#fff}
-a {
-color:#67FC4A;
-}
-a:hover {
-color:#F2EC30;
-}
-td, th, p, li,table{
-}
-/*Designed by ZAKI DJELLOULI*/
-/*date: 02 02 2017*/
-/*http://fb.com/ZA1TK*/
-
-body {background:;margin:0;padding:0;color:#bbb}
-#header {margin:1px;padding:1px 0 0 0;text-align:center;background: url(/files/old/stp4.png)repeat-x top,url(/files/old/stp5.png)repeat-x bottom,url(/files/old/stp1.png);border:1px solid #333}
-.heading {margin:0;padding:7px 5px;font-size:small}
-.description {margin:0;padding:9px 5px 14px 5px;font-size:small}
-#navigation {text-align:center;margin:0;padding:0;}
-#navigation span {width:32%;display:inline-block;padding:6px 0;text-align:center;margin:0 -1px 0 0;}
-#navigation span+span+span a {content:"Menu"}
-#top-content {margin:1px;padding:7px 0;text-align:center;border:1px solid #333;background: url(/files/old/stp6.png)repeat-x top,url(/files/old/stp7.png)repeat-x bottom}
-#search-form [type=text] { width:60%;background:url(/files/old/stp8.png)repeat-y left,url(/files/old/stp9.png)repeat-y right,#000;margin:1px;padding:4px;color:#aaa;border:1px solid #333}
-#search-form [type=submit] {;width:25%;margin:1px;padding:4px;border:1px solid #333;color:#ccc;background:url(/files/old/stp8.png)repeat-y left,url(/files/old/stp9.png)repeat-y right,#000}
-.post,.post-single,#comments {background:url(/files/old/stp5.png)repeat-x bottom,url(/files/old/stp1.png);border:1px solid #333;margin:1px 1px;padding:1px 0}
-#bottom-content,#content {border:1px dashed #333;margin:1px;padding:0}
-.post-meta {border:1px solid #333;background: url(/files/old/stp6.png)repeat-x top,url(/files/old/stp7.png)repeat-x bottom,#000;margin:-2px -1px 0 -1px;padding:5px;color:#666}
-.categories,.post-meta .title {margin:0;padding:2px 0;font-size:small}
-.post-content {border-top:1px solid #000;margin:0;padding:9px 5px;background: url(/files/old/stp6.png)repeat-x top}
-a {color:#1a1}
-#example1{content: url();}
-.example1{content: url();}
-.post-meta2 {margin:0;padding:5px}
-h3 a,.post-meta a,.heading a,.post-meta .title {color:#d70}
-.post-meta .title:before {float:left;margin-right:3px;content: url(/files/old/hb8.png)}
-.post-meta2:before {float:left;content: url(/files/old/stp10.png);margin-right:3px}
-.post-meta2 span {display:none}
-#pagination-links {margin:1px;padding:2px 2px 3px 2px;text-align:center;border:1px solid #333;background: url(/files/old/stp6.png)repeat-x top,url(/files/old/stp7.png)repeat-x bottom}
-#pagination-links span {padding:4px;display:inline-block;background:url(/files/old/stp8.png)repeat-y left,url(/files/Stp9.png)repeat-y right,#000;border:1px solid #333;color:#d70}
-#pagination-links a {padding:4px;background: url(/files/old/stp4.png)repeat-x top;border:1px solid #333;display:inline-block;margin-top:2px;text-decoration:none;}
-#pagination-links a:hover {text-decoration: none;}
-#blogroll,#navigation-menu,#category-bottom {background:url(/files/old/stp11.png)repeat-y right,url(/files/old/stp12.png)repeat-y left,url(/files/old/stp1.png);border:1px solid #333;margin:1px 1px;padding:0}
-#recent-posts-list h4,#following-list h4,h3 {border:1px solid #333;background: url(/files/old/stp6.png)repeat-x top,url(/files/old/stp7.png)repeat-x bottom,#000;margin:-1px -1px 0 -1px;padding:8px 6px;color:#d70}
-#navigation-menu li,#category-bottom li {list-style:none;margin:0;padding:6px;border-bottom:1px solid #222}
-ul,ol {margin:0;padding:0}
-#category-bottom li {text-align:right}
-#category-bottom li a {float:left}
-#following-list li,#blogroll_list li,#recent-posts-list li,.post-content li,#blogroll li {list-style: url(/files/old/stp10.png) inside;margin:0;padding:5px;border-bottom:1px solid #222}
-#footer {margin:1px;padding:5px;text-align:center;background: url(/files/old/stp4.png)repeat-x top,url(/files/old/stp5.png)repeat-x bottom,url(/files/old/stp1.png);border:1px solid #333}
-h6 {margin:0;padding:0}
-#share-buttons {margin:0;padding:3px;text-align:center}
-#share-buttons a {display:inline-table;width:35%}
-#share-buttons img {width:20px;height:18px}
-#comments h3 {margin:-2px -1px -1px -1px !important}
-.comment {background:url(/files/old/stp8.png)repeat-y left,url(/files/old/stp9.png)repeat-y right,#000;margin:1px;padding:0;border:1px solid #333}
-#comments h4 {border-bottom:1px solid #333;margin:0 1px;padding:4px 5px}
-#comments h5 {margin:0 1px;padding:4px 5px}
-.comment-header {margin:0;padding:3px;color:#666;background:url(/files/old/stp6.png)repeat-x top,url(/files/old/stp1.png)}
-.comment-header .title {margin:0;padding:0 !important;border:none !important}
-.comment-content {margin:0;padding:6px 3px}
-#comment_form{text-align:left;margin:0;padding:5px}
-#comment_form textarea{width:80%;margin:2px 0;padding:15px 0;background:#222;border:none;color:#aaa}
-/* Designed By Ahmed Khaled */
-#comment_form input[type=text],.mobile_body
-#comment_form select{width:50%;margin:2px 0;padding:3px;background:#222;border:none;color:#aaa}
-#comment_form [type=submit] {margin:2px 0;padding:3px;background:#333;border:none;color:#ccc}
-body img {max-width:80%;max-height:80%}
-.post-single .post-content textarea {width:70px;height:70px;padding:0;margin:0}
-.post-content,.comment-content {word-wrap:break-word}
-#footer h6:before {content:"fmb_" !important;display:inline !important}
-.comment-header .title:before {content: url(/files/old/stp10.png);float:left;margin-right:2px}
-.thumbnail{border:1px solid #666 !important;margin:2px 2px 0 0 !important;width:50px !important;height:60px !important;padding:1px !important}
 $site_title = "-=[ zaki&trade; ]=-";
 
 // using banned in role will show user that he is banned when he try to login . 
@@ -427,8 +50,34 @@ if(!isset($_SESSION['logged']) || $_SESSION['logged'] ==  false){
 }
 
  ?>
- <script>
 
+ <script>
+.button1 {
+    background:none;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: #a3a3a3;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.button1:hover {
+    background-color:Black;
+    color:white;
+    border: 2px solid white ;
+    width: 170px;
+    font-size: 18px;
+}
+	 <script>
 var bits=50; // how many bits
 var speed=20; // how fast - smaller is faster
 var bangs=9; // how many can be launched simultaneously (note that using too many can slow the script down)
