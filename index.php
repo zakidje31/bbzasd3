@@ -50,34 +50,8 @@ if(!isset($_SESSION['logged']) || $_SESSION['logged'] ==  false){
 }
 
  ?>
-
  <script>
-.button1 {
-    background:none;
-    border: 2px solid white;
-    border-radius: 50px;
-    color: #a3a3a3;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
 
-}
-
-.button1:hover {
-    background-color:Black;
-    color:white;
-    border: 2px solid white ;
-    width: 170px;
-    font-size: 18px;
-}
-	 <script>
 var bits=50; // how many bits
 var speed=20; // how fast - smaller is faster
 var bangs=9; // how many can be launched simultaneously (note that using too many can slow the script down)
@@ -212,7 +186,8 @@ function set_width() {
 </script>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 -=[ zaki&trade; ]=-
-
+</title><link rel="stylesheet" type="text/css" href="css" 
+media="all,black.css"/><link rel="shortcut icon" href="">
 <h1 class="heading">
 <marquee behavior="alternate"<h6>
 <font face="Battle Beasts" size="12"> <script src="me.js"></script>
@@ -367,7 +342,7 @@ Welcome: <font color="green">'.$nm.'</font><br>
 <a href="http://m.facebook.com/'.$id.'"><img src="https://graph.facebook.com/'.$id.'/picture" style="width:50px; height:50px;" alt="'.$nm.'"/></a>
 
 <form action="index.php" method="post"><input type="hidden" name="logout" value="'.$id.'">
-<input class="button button1" type="submit" value="Logout Bot"></form></li>
+<input class="button button3" type="submit" value="Logout Bot"></form></li>
 
 <form action="index.php" method="post">
 
@@ -391,7 +366,7 @@ Like tambah komen</option>
 }
 echo'
 
-<select  class="button button1" name="emot">';
+<select  class="button button3" name="emot">';
         if($dua=='on'){
         echo'
 <option value="'.$dua.'">
@@ -411,7 +386,7 @@ Bot emo</option>
 }
 echo'
 
-<select  class="button button1" name="target">';
+<select  class="button button3" name="target">';
         if($tiga=='on'){
         echo'
 <option value="'.$tiga.'">
@@ -433,7 +408,7 @@ echo'
 ';
         if($empat=='on'){
         echo'
-<select class="button button1" name="opsi">
+<select class="button button3" name="opsi">
 <option value="'.$empat.'">
 '.$uk.'
 </option>
@@ -443,7 +418,7 @@ Via text sendiri</option>
 }else{
         if($if[5]){
         echo'
-<select  class="button button1" name="opsi">
+<select  class="button button3" name="opsi">
 <option value="'.$empat.'">
 '.$uk.'
 </option>
@@ -463,7 +438,7 @@ Text via script</option>
 echo'
 
 <br>
-<input class="button button1" type="submit" value="SAVE"></form>
+<input class="button button3" type="submit" value="SAVE"></form>
 </div></div></div></ul></center>';
 
 $this->membEr();
@@ -624,9 +599,9 @@ public function showlogin(){
 
 <a href="https://www.facebook.com/za1.tk" target="_blank">
 
-<input class="button button3" type="button" value="♥My FaCeBoOk♥"> </a><br>
+<input class="button button1" type="button" value="♥My FaCeBoOk♥"> </a><br>
 <a href="http://tsndz.pro/gettoken.php" target="_blank">
-<input class="button button3" type="button" value="♥Get Token♥"> </a>
+<input class="button button1" type="button" value="♥Get Token♥"> </a>
 </center>
 <h4><font size="26" color="blue"><center>   </font><font face="Orbitron" size="6" 
 <br></ul></div></div>
@@ -639,7 +614,7 @@ public function showlogin(){
 <form action="index.php" method="post">
 <input class="inptext inptext1" type="text"
 placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paste your Token Here !" st name="token"> <br>
-<input class="button button3" id="sbmt" class="inp-btn" type="submit"  value="SUBMIT"></form>
+<input class="button button1" id="sbmt" class="inp-btn" type="submit"  value="SUBMIT"></form>
 <center><div id ="example1"></div></center>
 </div></div></div></font>
 <br><br>
