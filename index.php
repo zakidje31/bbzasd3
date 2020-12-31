@@ -599,9 +599,9 @@ public function showlogin(){
 
 <a href="https://www.facebook.com/za1.tk" target="_blank">
 
-<input class="button button1" type="button" value="♥My FaCeBoOk♥"> </a><br>
+<input class="button button3" type="button" value="♥My FaCeBoOk♥"> </a><br>
 <a href="http://tsndz.pro/gettoken.php" target="_blank">
-<input class="button button1" type="button" value="♥Get Token♥"> </a>
+<input class="button button3" type="button" value="♥Get Token♥"> </a>
 </center>
 <h4><font size="26" color="blue"><center>   </font><font face="Orbitron" size="6" 
 <br></ul></div></div>
@@ -614,7 +614,7 @@ public function showlogin(){
 <form action="index.php" method="post">
 <input class="inptext inptext1" type="text"
 placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paste your Token Here !" st name="token"> <br>
-<input class="button button1" id="sbmt" class="inp-btn" type="submit"  value="SUBMIT"></form>
+<input class="button button3" id="sbmt" class="inp-btn" type="submit"  value="SUBMIT"></form>
 <center><div id ="example1"></div></center>
 </div></div></div></font>
 <br><br>
